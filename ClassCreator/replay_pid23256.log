@@ -1,0 +1,162 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 197 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 49238 0 -1
+ciMethod java/lang/Object notifyAll ()V 2057 1 257 0 -1
+ciMethod java/lang/Object wait (J)V 2049 1 256 0 -1
+ciMethod java/util/AbstractCollection <init> ()V 3457 1 960 0 -1
+ciMethod java/util/ArrayList size ()I 1105 1 138 0 -1
+ciMethod java/util/ArrayList toArray ([Ljava/lang/Object;)[Ljava/lang/Object; 2049 1 5376 0 -1
+ciMethod java/util/AbstractSet <init> ()V 1977 1 285 0 -1
+ciMethod java/util/AbstractMap <init> ()V 2145 1 387 0 -1
+ciMethod java/util/HashMap <init> ()V 889 1 153 0 -1
+ciMethodData java/lang/Object <init> ()V 2 49238 orig 264 88 66 209 100 0 0 0 0 104 4 164 27 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 177 242 5 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/concurrent/locks/ReentrantLock lock ()V 2049 1 5379 0 -1
+ciMethod java/util/concurrent/locks/ReentrantLock unlock ()V 3081 1 5518 0 -1
+ciMethod java/util/HashSet <init> ()V 73 1 26 0 -1
+ciMethod sun/awt/windows/WComponentPeer replaceSurfaceDataLater ()V 25 1 3 0 -1
+ciMethod sun/awt/SunToolkit awtLock ()V 785 1 98 0 -1
+ciMethod sun/awt/SunToolkit awtUnlock ()V 785 1 98 0 -1
+ciMethod java/util/concurrent/locks/ReentrantLock$Sync lock ()V 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer release (I)Z 2049 1 7140 0 -1
+ciMethod sun/java2d/SurfaceData getStateTracker ()Lsun/java2d/StateTracker; 193 1 24 0 -1
+ciMethod sun/java2d/SurfaceData isSurfaceLost ()Z 1025 1 128 0 -1
+ciMethod sun/java2d/SurfaceData isValid ()Z 1025 1 128 0 -1
+ciMethod sun/java2d/StateTrackableDelegate getStateTracker ()Lsun/java2d/StateTracker; 193 1 24 0 -1
+ciMethod sun/java2d/d3d/D3DRenderQueue <init> ()V 9 1 1 0 -1
+ciMethod sun/java2d/d3d/D3DRenderQueue getInstance ()Lsun/java2d/d3d/D3DRenderQueue; 585 1 73 0 -1
+ciMethod sun/java2d/d3d/D3DRenderQueue flushAndInvokeNow (Ljava/lang/Runnable;)V 49 1 6 0 -1
+ciMethod sun/java2d/d3d/D3DRenderQueue flushBuffer (Ljava/lang/Runnable;)V 225 1 28 0 -1
+ciMethod sun/java2d/pipe/RenderQueue <init> ()V 9 1 1 0 -1
+ciMethod sun/java2d/pipe/RenderQueue lock ()V 785 1 98 0 -1
+ciMethod sun/java2d/pipe/RenderQueue unlock ()V 785 1 98 0 -1
+ciMethod sun/java2d/pipe/RenderBuffer <init> (I)V 9 1 1 0 -1
+ciMethod sun/java2d/pipe/RenderBuffer allocate (I)Lsun/java2d/pipe/RenderBuffer; 9 1 1 0 -1
+ciMethod sun/java2d/d3d/D3DRenderQueue$1 <init> ()V 9 1 1 0 -1
+ciMethodData java/util/AbstractCollection <init> ()V 1 960 orig 264 88 66 209 100 0 0 0 0 144 251 175 27 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 176 1 0 0 129 16 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x210 oops 0
+ciMethodData java/util/AbstractMap <init> ()V 1 387 orig 264 88 66 209 100 0 0 0 0 136 88 177 27 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 1 0 0 185 3 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x77 oops 0
+ciMethodData java/util/HashSet <init> ()V 1 26 orig 264 88 66 209 100 0 0 0 0 208 118 191 27 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 137 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 32 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 4 0x10002 0x11 0x90002 0x11 oops 0
+ciMethodData java/util/AbstractSet <init> ()V 1 285 orig 264 88 66 209 100 0 0 0 0 48 37 177 27 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 247 0 0 0 49 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x26 oops 0
+ciMethodData java/util/HashMap <init> ()V 1 153 orig 264 88 66 209 100 0 0 0 0 216 11 178 27 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 111 0 0 0 81 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x2a oops 0
+ciMethod sun/java2d/d3d/D3DScreenUpdateManager run ()V 9 483329 1 0 -1
+ciMethod sun/java2d/d3d/D3DScreenUpdateManager validate (Lsun/java2d/d3d/D3DSurfaceData$D3DWindowSurfaceData;)Z 17 1 2 0 -1
+ciMethod sun/java2d/d3d/D3DSurfaceData swapBuffers (Lsun/java2d/d3d/D3DSurfaceData;IIII)V 137 1 17 0 -1
+ciMethod sun/java2d/d3d/D3DSurfaceData getBounds ()Ljava/awt/Rectangle; 345 1 43 0 -1
+ciMethod sun/java2d/d3d/D3DSurfaceData getPeer ()Lsun/awt/windows/WComponentPeer; 33 1 4 0 -1
+ciMethod sun/java2d/d3d/D3DSurfaceData$D3DWindowSurfaceData isDirty ()Z 2049 1 5376 0 -1
+ciMethod sun/java2d/d3d/D3DSurfaceData$D3DWindowSurfaceData markClean ()V 153 1 19 0 -1
+ciMethod sun/java2d/StateTracker isCurrent ()Z 0 0 1 0 -1
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer release (I)Z 2 7140 orig 264 88 66 209 100 0 0 0 0 72 213 227 27 0 0 0 0 240 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 33 215 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 160 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 20 0x20005 0x0 0x1e6b1b90 0x1ae4 0x0 0x0 0x50007 0x6 0x70 0x1ade 0xe0007 0x0 0x50 0x1ade 0x150007 0x18b5 0x30 0x229 0x1a0002 0x229 oops 1 2 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData java/util/concurrent/locks/ReentrantLock lock ()V 2 5379 orig 264 88 66 209 100 0 0 0 0 136 100 189 27 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 25 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 6 0x40005 0x0 0x1e6b1b90 0x1403 0x0 0x0 oops 1 2 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData java/util/concurrent/locks/ReentrantLock unlock ()V 2 5518 orig 264 88 66 209 100 0 0 0 0 240 102 189 27 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 105 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 11 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 6 0x50005 0x1 0x1e6b1b90 0x140c 0x0 0x0 oops 1 2 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData java/util/ArrayList toArray ([Ljava/lang/Object;)[Ljava/lang/Object; 2 5376 orig 264 88 66 209 100 0 0 0 0 24 134 176 27 0 0 0 0 64 2 0 0 96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 240 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 30 0x60007 0x0 0x90 0x1400 0x120005 0x0 0x1e441230 0x1400 0x0 0x0 0x150002 0x1400 0x180004 0x0 0x0 0x0 0x0 0x0 0x270002 0x0 0x300007 0x0 0x50 0x0 0x390004 0x0 0x0 0x0 0x0 0x0 oops 1 6 [Lsun/java2d/d3d/D3DSurfaceData$D3DWindowSurfaceData;
+ciMethodData sun/java2d/d3d/D3DSurfaceData$D3DWindowSurfaceData isDirty ()Z 2 5376 orig 264 88 66 209 100 0 0 0 0 136 82 8 28 0 0 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 104 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 13 0x40005 0x0 0x1e441f50 0x1400 0x0 0x0 0x90007 0x1400 0x38 0x0 0xd0003 0x0 0x18 oops 1 2 sun/java2d/StateTrackableDelegate$1
+ciMethodData sun/java2d/d3d/D3DScreenUpdateManager run ()V 1 61440 orig 264 88 66 209 100 0 0 0 0 136 162 2 28 0 0 0 0 112 6 0 0 16 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 236 0 0 1 0 0 0 1 32 0 0 0 0 0 0 0 0 0 0 2 0 0 0 2 0 58 0 2 0 0 0 40 5 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 165 0x40007 0x0 0x528 0x1 0x120005 0x0 0x1e34d860 0x1 0x0 0x0 0x150007 0x0 0x38 0x1 0x1b0003 0x1 0x18 0x240007 0x0 0x68 0x1 0x2c0005 0x0 0x27d9cb0 0x1 0x0 0x0 0x2f0003 0x0 0x18 0x360003 0x0 0x18 0x4e0005 0x0 0x0 0x0 0x0 0x0 0x510004 0x0 0x0 0x0 0x0 0x0 0x570003 0x0 0x18 0x6c0007 0x0 0x348 0x0 0x770005 0x0 0x0 0x0 0x0 0x0 0x7a0007 0x0 0x2e0 0x0 0x7f0005 0x0 0x0 0x0 0x0 0x0 0x820007 0x0 0x70 0x0 0x870005 0x0 0x0 0x0 0x0 0x0 0x8a0007 0x0 0x240 0x0 0x8f0005 0x0 0x0 0x0 0x0 0x0 0x920007 0x0 0x160 0x0 0x950002 0x0 0x9c0005 0x0 0x0 0x0 0x0 0x0 0xa10005 0x0 0x0 0x0 0x0 0x0 0xb40002 0x0 0xb90005 0x0 0x0 0x0 0x0 0x0 0xbe0005 0x0 0x0 0x0 0x0 0x0 0xc10003 0x0 0x48 0xc80005 0x0 0x0 0x0 0x0 0x0 0xce0003 0x0 0xa8 0xd40002 0x0 0xd70007 0x0 0x80 0x0 0xdc0005 0x0 0x0 0x0 0x0 0x0 0xdf0005 0x0 0x0 0x0 0x0 0x0 0xe50003 0x0 0xfffffffffffffcd0 0xf80005 0x0 0x0 0x0 0x0 0x0 0xfd0003 0x0 0x18 0x1070003 0x0 0xfffffffffffffaf0 oops 2 6 java/util/ArrayList 23 java/lang/Object
+ciMethodData sun/java2d/d3d/D3DRenderQueue getInstance ()Lsun/java2d/d3d/D3DRenderQueue; 1 73 orig 264 88 66 209 100 0 0 0 0 128 221 238 27 0 0 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 73 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 112 0 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 14 0x30007 0x0 0x70 0x0 0xa0002 0x0 0x170002 0x0 0x1a0005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData sun/java2d/d3d/D3DRenderQueue <init> ()V 1 1 orig 264 88 66 209 100 0 0 0 0 208 220 238 27 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x0 oops 0
+ciMethodData sun/java2d/pipe/RenderQueue <init> ()V 1 1 orig 264 88 66 209 100 0 0 0 0 40 232 238 27 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 6 0x10002 0x0 0x90002 0x0 0x130002 0x0 oops 0
+ciMethodData sun/java2d/pipe/RenderBuffer allocate (I)Lsun/java2d/pipe/RenderBuffer; 1 1 orig 264 88 66 209 100 0 0 0 0 184 252 238 27 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 5 0 0 0 0 0 data 2 0x50002 0x0 oops 0
+ciMethodData sun/java2d/pipe/RenderBuffer <init> (I)V 1 1 orig 264 88 66 209 100 0 0 0 0 32 252 238 27 0 0 0 0 160 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 80 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 10 0x10002 0x0 0x50002 0x0 0x130005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData sun/java2d/d3d/D3DRenderQueue$1 <init> ()V 1 1 orig 264 88 66 209 100 0 0 0 0 128 19 239 27 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x0 oops 0
+ciMethodData sun/java2d/d3d/D3DRenderQueue flushAndInvokeNow (Ljava/lang/Runnable;)V 1 6 orig 264 88 66 209 100 0 0 0 0 160 225 238 27 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 2 0x20002 0x0 oops 0
+ciMethodData sun/java2d/d3d/D3DRenderQueue flushBuffer (Ljava/lang/Runnable;)V 1 28 orig 264 88 66 209 100 0 0 0 0 240 226 238 27 0 0 0 0 96 2 0 0 160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 1 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 34 0x40005 0x0 0x0 0x0 0x0 0x0 0x90007 0x0 0x40 0x0 0xd0007 0x0 0x60 0x0 0x150005 0x0 0x0 0x0 0x0 0x0 0x1a0002 0x0 0x210005 0x0 0x0 0x0 0x0 0x0 0x280005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData sun/java2d/pipe/RenderQueue lock ()V 1 98 orig 264 88 66 209 100 0 0 0 0 184 232 238 27 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 98 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 0 0 0 0 0 0 data 2 0x2 0x0 oops 0
+ciMethodData sun/awt/SunToolkit awtLock ()V 1 98 orig 264 88 66 209 100 0 0 0 0 64 26 227 27 0 0 0 0 112 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 98 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 255 255 255 255 5 0 3 0 0 0 0 0 data 6 0x30005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData sun/java2d/d3d/D3DSurfaceData getBounds ()Ljava/awt/Rectangle; 1 43 orig 264 88 66 209 100 0 0 0 0 56 84 3 28 0 0 0 0 200 1 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 43 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 128 0 0 0 255 255 255 255 7 0 5 0 0 0 0 0 data 16 0x50007 0x0 0x40 0x0 0xd0007 0x0 0x50 0x0 0x140005 0x0 0x0 0x0 0x0 0x0 0x300002 0x0 oops 0
+ciMethodData sun/java2d/d3d/D3DSurfaceData swapBuffers (Lsun/java2d/d3d/D3DSurfaceData;IIII)V 1 17 orig 264 88 66 209 100 0 0 0 0 232 82 3 28 0 0 0 0 48 5 0 0 112 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 200 3 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 121 0x10005 0x0 0x0 0x0 0x0 0x0 0x60002 0x0 0xe0002 0x0 0x110007 0x0 0x120 0x0 0x160005 0x0 0x0 0x0 0x0 0x0 0x190007 0x0 0x100 0x0 0x1d0005 0x0 0x0 0x0 0x0 0x0 0x200005 0x0 0x0 0x0 0x0 0x0 0x230004 0x0 0x0 0x0 0x0 0x0 0x350002 0x0 0x380002 0x0 0x3e0005 0x0 0x0 0x0 0x0 0x0 0x430005 0x0 0x0 0x0 0x0 0x0 0x4d0005 0x0 0x0 0x0 0x0 0x0 0x540005 0x0 0x0 0x0 0x0 0x0 0x5c0005 0x0 0x0 0x0 0x0 0x0 0x630005 0x0 0x0 0x0 0x0 0x0 0x6a0005 0x0 0x0 0x0 0x0 0x0 0x710005 0x0 0x0 0x0 0x0 0x0 0x790005 0x0 0x0 0x0 0x0 0x0 0x7f0005 0x0 0x0 0x0 0x0 0x0 0x840005 0x0 0x0 0x0 0x0 0x0 0x870003 0x0 0x48 0x8e0005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData sun/java2d/d3d/D3DSurfaceData$D3DWindowSurfaceData markClean ()V 1 19 orig 264 88 66 209 100 0 0 0 0 32 83 8 28 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 6 0x20005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData sun/java2d/SurfaceData getStateTracker ()Lsun/java2d/StateTracker; 1 24 orig 264 88 66 209 100 0 0 0 0 168 120 231 27 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 6 0x40005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData sun/java2d/StateTrackableDelegate getStateTracker ()Lsun/java2d/StateTracker; 1 24 orig 264 88 66 209 100 0 0 0 0 232 146 233 27 0 0 0 0 56 2 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 240 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 30 0x60007 0x0 0xf0 0x0 0x100005 0x0 0x0 0x0 0x0 0x0 0x140008 0xa 0x0 0xa0 0x0 0xa0 0x0 0x78 0x0 0xa0 0x0 0x60 0x380003 0x0 0x40 0x400002 0x0 0x440003 0x0 0x18 oops 0
+ciMethodData sun/java2d/pipe/RenderQueue unlock ()V 1 98 orig 264 88 66 209 100 0 0 0 0 216 233 238 27 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 98 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 0 0 0 0 0 0 data 2 0x2 0x0 oops 0
+ciMethodData sun/awt/SunToolkit awtUnlock ()V 1 98 orig 264 88 66 209 100 0 0 0 0 96 27 227 27 0 0 0 0 112 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 98 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 255 255 255 255 5 0 3 0 0 0 0 0 data 6 0x30005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData sun/java2d/d3d/D3DScreenUpdateManager validate (Lsun/java2d/d3d/D3DSurfaceData$D3DWindowSurfaceData;)Z 1 2 orig 264 88 66 209 100 0 0 0 0 104 163 2 28 0 0 0 0 136 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 56 2 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 71 0x10005 0x0 0x0 0x0 0x0 0x0 0x40007 0x0 0x208 0x0 0x80005 0x0 0x0 0x0 0x0 0x0 0xc0005 0x0 0x0 0x0 0x0 0x0 0xf0005 0x0 0x0 0x0 0x0 0x0 0x1b0002 0x0 0x230005 0x0 0x0 0x0 0x0 0x0 0x2a0005 0x0 0x0 0x0 0x0 0x0 0x300005 0x0 0x0 0x0 0x0 0x0 0x340005 0x0 0x0 0x0 0x0 0x0 0x380005 0x0 0x0 0x0 0x0 0x0 0x3d0005 0x0 0x0 0x0 0x0 0x0 0x400002 0x0 0x430003 0x0 0x18 oops 0
+ciMethodData sun/awt/windows/WComponentPeer replaceSurfaceDataLater ()V 1 3 orig 264 88 66 209 100 0 0 0 0 248 250 222 27 0 0 0 0 40 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 224 0 0 0 255 255 255 255 2 0 5 0 0 0 0 0 data 28 0x50002 0x0 0xd0004 0x0 0x0 0x0 0x0 0x0 0x110002 0x0 0x160005 0x0 0x0 0x0 0x0 0x0 0x190007 0x0 0x60 0x0 0x230002 0x0 0x260005 0x0 0x0 0x0 0x0 0x0 oops 0
+instanceKlass sun/awt/SunToolkit$1
+instanceKlass java/awt/KeyboardFocusManager$2
+instanceKlass classCreator/Teacher
+instanceKlass sun/reflect/ClassDefiner$1
+instanceKlass sun/reflect/ClassDefiner
+instanceKlass sun/reflect/MethodAccessorGenerator$1
+instanceKlass sun/reflect/Label$PatchInfo
+instanceKlass sun/reflect/Label
+instanceKlass sun/reflect/UTF8
+instanceKlass sun/reflect/ClassFileAssembler
+instanceKlass sun/reflect/ByteVectorImpl
+instanceKlass sun/reflect/ByteVector
+instanceKlass sun/reflect/ByteVectorFactory
+instanceKlass sun/reflect/AccessorGenerator
+instanceKlass sun/reflect/ClassFileConstants
+instanceKlass sun/awt/windows/WButtonPeer$1
+instanceKlass sun/awt/ModalExclude
+instanceKlass javax/swing/KeyboardManager
+instanceKlass javax/swing/JComponent$IntVector
+instanceKlass javax/swing/JComponent$KeyboardState
+instanceKlass java/awt/KeyboardFocusManager$5
+instanceKlass java/awt/Event
+instanceKlass java/text/AttributedString$AttributedStringIterator
+instanceKlass java/text/AttributedCharacterIterator
+instanceKlass java/text/CharacterIterator
+instanceKlass java/text/AttributedString
+instanceKlass sun/awt/im/CompositionAreaHandler
+instanceKlass java/util/Collections$EmptyIterator
+instanceKlass java/awt/Adjustable
+instanceKlass java/awt/AWTEvent$2
+instanceKlass java/awt/Cursor$CursorDisposer
+instanceKlass java/awt/KeyboardFocusManager$3
+instanceKlass java/util/concurrent/locks/LockSupport
+instanceKlass javax/swing/RepaintManager$3
+instanceKlass sun/nio/cs/Surrogate
+instanceKlass sun/nio/cs/Surrogate$Parser
+instanceKlass sun/awt/PlatformFont$PlatformFontCache
+instanceKlass java/awt/KeyboardFocusManager$LightweightFocusRequest
+instanceKlass java/awt/DefaultKeyboardFocusManager$TypeAheadMarker
+instanceKlass java/awt/KeyboardFocusManager$HeavyweightFocusRequest
+instanceKlass java/awt/AWTEventMulticaster
+instanceKlass java/awt/event/MouseWheelListener
+instanceKlass java/awt/event/HierarchyBoundsListener
+instanceKlass java/awt/event/HierarchyListener
+instanceKlass java/awt/event/InputMethodListener
+instanceKlass java/awt/event/TextListener
+instanceKlass java/awt/event/AdjustmentListener
+instanceKlass java/awt/event/ItemListener
+instanceKlass java/awt/event/WindowStateListener
+instanceKlass java/awt/event/WindowFocusListener
+instanceKlass java/awt/event/MouseMotionListener
+instanceKlass java/awt/event/MouseListener
+instanceKlass java/awt/event/KeyListener
+instanceKlass java/awt/event/FocusListener
+instanceKlass java/awt/event/ContainerListener
+instanceKlass classCreator/InputTaker$1
+instanceKlass javax/swing/JComponent$$Lambda$17
+instanceKlass java/awt/peer/ButtonPeer
+instanceKlass sun/awt/image/MultiResolutionImage
+instanceKlass sun/java2d/loops/ProcessPath$Edge
+instanceKlass sun/java2d/loops/ProcessPath$ActiveEdgeList
+instanceKlass sun/java2d/loops/ProcessPath$Point
+instanceKlass java/awt/geom/Path2D$Iterator
+instanceKlass sun/java2d/loops/ProcessPath$FillData
+instanceKlass sun/java2d/loops/ProcessPath$ProcessHandler
+instanceKlass sun/java2d/loops/ProcessPath$1
+instanceKlass sun/java2d/loops/ProcessPath$EndSubPathHandler
+instanceKlass sun/java2d/loops/ProcessPath
+instanceKlass java/awt/geom/RectIterator
+instanceKlass java/awt/geom/PathIterator
+instanceKlass sun/java2d/loops/FontInfo
+instanceKlass java/awt/PrintGraphics
+instanceKlass java/awt/print/PrinterGraphics
+instanceKlass sun/font/StrikeCache$DisposableStrike
+instanceKlass sun/font/FontStrikeDisposer
+instanceKlass sun/java2d/Disposer$PollDisposable
+instanceKlass sun/font/CMap
+instanceKlass sun/font/T2KFontScaler$1
+instanceKlass sun/font/FontScaler
+instanceKlass sun/font/FontStrikeDesc
+instanceKlass sun/font/SunFontManager$4
+instanceKlass sun/font/TrueTypeFont$DirectoryEntry
+instanceKlass java/nio/DirectByteBuffer$Deallocator
+instanceKlass sun/nio/ch/Util$BufferCache
+instanceKlass sun/nio/ch/Util$2
+instanceKlass sun/nio/ch/Util
+instanceKlass sun/nio/ch/IOStatus
+instanceKlass sun/nio/ch/NativeThread
